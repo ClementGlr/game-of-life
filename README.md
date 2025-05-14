@@ -19,7 +19,7 @@ When you launch the game you can click on the square to place/remove living cell
 
 #### Rule of game of life
 
-Each dark cell is a living cell. Each white on is a dead one. Between each step the living and dead cell are updated following those rules :
+Each dark cell is a live cell. Each white is a dead one. Between each step the live and dead cells are updated following those rules :
 
 1.  Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
 2.  Any live cell with more than three live neighbours dies, as if by overcrowding.
