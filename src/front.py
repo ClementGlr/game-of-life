@@ -61,7 +61,6 @@ while run:
         
 
     pygame.display.update()
-    pygame.display.update()
     if hasGameStarted:
         current_state = compute_next_state(current_state)
         pygame.time.delay(1000)

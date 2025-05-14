@@ -1,4 +1,4 @@
-# Display the current state of the world
+# Display the current state of the world (deprecated, use pygame instead)
 def display_state(state):
     print("\n----------------------------------------------------------------------------------------")
     for row in state:
