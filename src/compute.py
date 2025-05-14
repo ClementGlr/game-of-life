@@ -44,24 +44,3 @@ def compute_next_state(current_state):
                 new_row.append(live_or_die(current_state,i,j))
         next_state.append(new_row)
     return next_state
-
-
-# Main function to run the simulation
-current_state = []
-
-for i in range(10):
-    row = []
-    for j in range(10):
-        row.append(0)
-    current_state.append(row)
-
-if __name__ == '__main__':
-    current_state[1][2] = 1
-    current_state[1][3] = 1
-    current_state[2][3] = 1
-
-    display_state(current_state)
-    current_state = compute_next_state(current_state)
-    display_state(current_state)
-    current_state = compute_next_state(current_state)
-    display_state(current_state)
